@@ -2,10 +2,10 @@
 date_default_timezone_set('America/Sao_Paulo');
 header('Content-Type: text/html; charset=UTF-8');
 
-$servername = 'GRPJNG011204010';
-$username = 'sa';
-$password = '1qaz@WSX3edc$RFV';
-$database = 'FINANCEIRAS';
+$servername = 'seu servidor';
+$username = 'seu usuario';
+$password = 'seu senha';
+$database = 'tabela dados';
 
 $connectionInfo = array("Database" => $database, "UID" => $username, "PWD" => $password, "CharacterSet" => "UTF-8");
 $conn = sqlsrv_connect($servername, $connectionInfo);
